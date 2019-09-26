@@ -23,6 +23,8 @@ namespace Syy.Logics
             }
         }
 
+        public static bool IsAlive => _i != null;
+
         protected virtual void Awake()
         {
             if (_i == null)
